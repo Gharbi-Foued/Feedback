@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Html Forms Checkpoint</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="./src/icon.png" type="image/png">
+</head>
+
+<body id="bg">
+
+
+
+  <div class="main">
+    <div id="tab1">
+      <img src="./src/you.png">
+      <p id="info">To give us feedback, because this course is made for you! <br> Because it's all about
+        you!
+        Fill this form if you:
+        <br>
+        - Find an error in the content or in the quizzes <br>
+        - Have a feedback about instructors or the experience <br>
+        - Have a suggestion on how to make the course better</p>
+    </div>
+    <div id="tab2">
+      <form>
+        <div class="input">
+
+          <div>
+            <label>Name :</label>
+            <br>
+            <input type='text' placeholder="Enter your Name Here .. " required>
+
+
+            <label>Track : </label>
+            <select id='track' onchange="track">
+              <option>Select Your Track :</option>
+              <option>Game</option>
+              <option>Web</option>
+            </select>
+
+          </div>
+          <br>
+          <div> <label>Slide name or object :</label>
+            <input type="text" name="SlideName" placeholder="Set your object Here .. " required>
+          </div>
+          <div>
+            <div>
+              <br>
+              <label>Message :</label> <br>
+              <textarea id="message" type="text" rows='5' name="message" placeholder="Enter your message Here .. "
+                required></textarea>
+            </div>
+          </div>
+          <button class="button" type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+<footer>
+  <h1> <br> '<' See you Later..'>'</h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</footer>
+
+</html>
